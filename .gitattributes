@@ -1,0 +1,9 @@
+# Normalise line endings so the repo is identical on Windows, macOS and Linux.
+# Without this, git warns on every add from Windows about LF -> CRLF conversion.
+* text=auto eol=lf
+
+# Binary assets must never be line-ending converted.
+*.png binary
+*.pdf binary
+*.pptx binary
+*.onnx binary

@@ -1,0 +1,18 @@
+# Core runtime
+numpy>=1.26
+opencv-python>=4.9
+pyttsx3>=2.90
+
+# ONNX Runtime — pick ONE.
+# On Snapdragon / Windows-on-ARM (this is the one that reaches the Hexagon NPU):
+#   pip install onnxruntime-qnn
+# Anywhere else, for development and the CPU baseline:
+onnxruntime>=1.18
+
+# Model acquisition, quantization and on-device profiling via Qualcomm AI Hub.
+# Only needed to run scripts/export_models.py, not to run the app.
+qai-hub>=0.9
+qai-hub-models>=0.17
+
+# Tests
+pytest>=8.0
