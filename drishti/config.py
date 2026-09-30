@@ -15,8 +15,8 @@ OCR_DETECTOR_ONNX = MODEL_DIR / "easyocr_detector.onnx"
 OCR_RECOGNIZER_ONNX = MODEL_DIR / "easyocr_recognizer.onnx"
 
 # AI Hub device string used for cloud compile/profile jobs.
-# "Snapdragon X Elite CRD" is the Windows-on-Snapdragon compute reference design.
-AI_HUB_DEVICE = "Snapdragon X Elite CRD"
+# "Snapdragon X2 Elite CRD" is the Windows-on-Snapdragon compute reference design.
+AI_HUB_DEVICE = "Snapdragon X2 Elite CRD"
 
 
 @dataclass(frozen=True)

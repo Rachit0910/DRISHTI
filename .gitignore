@@ -2,4 +2,3 @@ __pycache__/
 *.pyc
 .venv/
 models/*.onnx
-benchmarks/*.json
